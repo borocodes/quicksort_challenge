@@ -12,7 +12,6 @@ function quickSort(
   return elements; // returns the sorted array of elements
 }
 
-
 function partition(compare, elements, lowerIndex, upperIndex) {
   const pivotValue = elements[upperIndex]; // pivot value is last item in our elements array
   let partitionIndex = lowerIndex; // "i"
@@ -51,4 +50,4 @@ function compare(left, right) {
   return left - right;
 }
 
-module.exports = quickSort
+module.exports = quickSort;
